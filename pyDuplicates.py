@@ -24,7 +24,7 @@ def _parse_arguments():
     parser.add_argument('--quiet', action='store_true', default=False,
                         help='Print no debug information in runtime. '
                              'Only prints the duplicate list or saves it to json.')
-    parser.add_argument('--version', action='version', version='%(prog)s 0.1')
+    parser.add_argument('--version', action='version', version='%(prog)s 0.1.1')
     return parser.parse_args()
 
 
